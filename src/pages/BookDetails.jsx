@@ -77,7 +77,7 @@ const BookDetails = () => {
         >
           <ArrowLeft size={20} className="mr-2" /> Back
         </button>
-        <div className="flex flex-col md:flex-row gap-8">
+        <div className="flex flex-col md:flex-row gap-8 px-8 py-8 bg-white dark:bg-gray-800 rounded-2xl shadow-xl overflow-hidden">
           <motion.div
             className="md:w-1/3"
             initial={{ opacity: 0, x: -20 }}
